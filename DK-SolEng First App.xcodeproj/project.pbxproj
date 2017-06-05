@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B945397C1EE60CEC00CBF04D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B945397B1EE60CEC00CBF04D /* AppDelegate.swift */; };
+		B945397E1EE60CEC00CBF04D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B945397D1EE60CEC00CBF04D /* ViewController.swift */; };
+		B94539811EE60CEC00CBF04D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B945397F1EE60CEC00CBF04D /* Main.storyboard */; };
+		B94539831EE60CEC00CBF04D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B94539821EE60CEC00CBF04D /* Assets.xcassets */; };
+		B94539861EE60CEC00CBF04D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94539841EE60CEC00CBF04D /* LaunchScreen.storyboard */; };
+		B94539911EE60CEC00CBF04D /* DK_SolEng_First_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94539901EE60CEC00CBF04D /* DK_SolEng_First_AppTests.swift */; };
+		B945399C1EE60CEC00CBF04D /* DK_SolEng_First_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B945399B1EE60CEC00CBF04D /* DK_SolEng_First_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B945398D1EE60CEC00CBF04D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B94539701EE60CEB00CBF04D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B94539771EE60CEB00CBF04D;
+			remoteInfo = "DK-SolEng First App";
+		};
+		B94539981EE60CEC00CBF04D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B94539701EE60CEB00CBF04D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B94539771EE60CEB00CBF04D;
+			remoteInfo = "DK-SolEng First App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B94539781EE60CEC00CBF04D /* DK-SolEng First App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DK-SolEng First App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B945397B1EE60CEC00CBF04D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B945397D1EE60CEC00CBF04D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B94539801EE60CEC00CBF04D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B94539821EE60CEC00CBF04D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B94539851EE60CEC00CBF04D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B94539871EE60CEC00CBF04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B945398C1EE60CEC00CBF04D /* DK-SolEng First AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DK-SolEng First AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B94539901EE60CEC00CBF04D /* DK_SolEng_First_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DK_SolEng_First_AppTests.swift; sourceTree = "<group>"; };
+		B94539921EE60CEC00CBF04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B94539971EE60CEC00CBF04D /* DK-SolEng First AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DK-SolEng First AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B945399B1EE60CEC00CBF04D /* DK_SolEng_First_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DK_SolEng_First_AppUITests.swift; sourceTree = "<group>"; };
+		B945399D1EE60CEC00CBF04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B94539751EE60CEB00CBF04D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94539891EE60CEC00CBF04D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94539941EE60CEC00CBF04D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B945396F1EE60CEB00CBF04D = {
+			isa = PBXGroup;
+			children = (
+				B945397A1EE60CEC00CBF04D /* DK-SolEng First App */,
+				B945398F1EE60CEC00CBF04D /* DK-SolEng First AppTests */,
+				B945399A1EE60CEC00CBF04D /* DK-SolEng First AppUITests */,
+				B94539791EE60CEC00CBF04D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B94539791EE60CEC00CBF04D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B94539781EE60CEC00CBF04D /* DK-SolEng First App.app */,
+				B945398C1EE60CEC00CBF04D /* DK-SolEng First AppTests.xctest */,
+				B94539971EE60CEC00CBF04D /* DK-SolEng First AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B945397A1EE60CEC00CBF04D /* DK-SolEng First App */ = {
+			isa = PBXGroup;
+			children = (
+				B945397B1EE60CEC00CBF04D /* AppDelegate.swift */,
+				B945397D1EE60CEC00CBF04D /* ViewController.swift */,
+				B945397F1EE60CEC00CBF04D /* Main.storyboard */,
+				B94539821EE60CEC00CBF04D /* Assets.xcassets */,
+				B94539841EE60CEC00CBF04D /* LaunchScreen.storyboard */,
+				B94539871EE60CEC00CBF04D /* Info.plist */,
+			);
+			path = "DK-SolEng First App";
+			sourceTree = "<group>";
+		};
+		B945398F1EE60CEC00CBF04D /* DK-SolEng First AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B94539901EE60CEC00CBF04D /* DK_SolEng_First_AppTests.swift */,
+				B94539921EE60CEC00CBF04D /* Info.plist */,
+			);
+			path = "DK-SolEng First AppTests";
+			sourceTree = "<group>";
+		};
+		B945399A1EE60CEC00CBF04D /* DK-SolEng First AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B945399B1EE60CEC00CBF04D /* DK_SolEng_First_AppUITests.swift */,
+				B945399D1EE60CEC00CBF04D /* Info.plist */,
+			);
+			path = "DK-SolEng First AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B94539771EE60CEB00CBF04D /* DK-SolEng First App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B94539A01EE60CEC00CBF04D /* Build configuration list for PBXNativeTarget "DK-SolEng First App" */;
+			buildPhases = (
+				B94539741EE60CEB00CBF04D /* Sources */,
+				B94539751EE60CEB00CBF04D /* Frameworks */,
+				B94539761EE60CEB00CBF04D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DK-SolEng First App";
+			productName = "DK-SolEng First App";
+			productReference = B94539781EE60CEC00CBF04D /* DK-SolEng First App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B945398B1EE60CEC00CBF04D /* DK-SolEng First AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B94539A31EE60CEC00CBF04D /* Build configuration list for PBXNativeTarget "DK-SolEng First AppTests" */;
+			buildPhases = (
+				B94539881EE60CEC00CBF04D /* Sources */,
+				B94539891EE60CEC00CBF04D /* Frameworks */,
+				B945398A1EE60CEC00CBF04D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B945398E1EE60CEC00CBF04D /* PBXTargetDependency */,
+			);
+			name = "DK-SolEng First AppTests";
+			productName = "DK-SolEng First AppTests";
+			productReference = B945398C1EE60CEC00CBF04D /* DK-SolEng First AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B94539961EE60CEC00CBF04D /* DK-SolEng First AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B94539A61EE60CEC00CBF04D /* Build configuration list for PBXNativeTarget "DK-SolEng First AppUITests" */;
+			buildPhases = (
+				B94539931EE60CEC00CBF04D /* Sources */,
+				B94539941EE60CEC00CBF04D /* Frameworks */,
+				B94539951EE60CEC00CBF04D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B94539991EE60CEC00CBF04D /* PBXTargetDependency */,
+			);
+			name = "DK-SolEng First AppUITests";
+			productName = "DK-SolEng First AppUITests";
+			productReference = B94539971EE60CEC00CBF04D /* DK-SolEng First AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B94539701EE60CEB00CBF04D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Rubicon Project";
+				TargetAttributes = {
+					B94539771EE60CEB00CBF04D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					B945398B1EE60CEC00CBF04D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B94539771EE60CEB00CBF04D;
+					};
+					B94539961EE60CEC00CBF04D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B94539771EE60CEB00CBF04D;
+					};
+				};
+			};
+			buildConfigurationList = B94539731EE60CEB00CBF04D /* Build configuration list for PBXProject "DK-SolEng First App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B945396F1EE60CEB00CBF04D;
+			productRefGroup = B94539791EE60CEC00CBF04D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B94539771EE60CEB00CBF04D /* DK-SolEng First App */,
+				B945398B1EE60CEC00CBF04D /* DK-SolEng First AppTests */,
+				B94539961EE60CEC00CBF04D /* DK-SolEng First AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B94539761EE60CEB00CBF04D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94539861EE60CEC00CBF04D /* LaunchScreen.storyboard in Resources */,
+				B94539831EE60CEC00CBF04D /* Assets.xcassets in Resources */,
+				B94539811EE60CEC00CBF04D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B945398A1EE60CEC00CBF04D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94539951EE60CEC00CBF04D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B94539741EE60CEB00CBF04D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B945397E1EE60CEC00CBF04D /* ViewController.swift in Sources */,
+				B945397C1EE60CEC00CBF04D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94539881EE60CEC00CBF04D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94539911EE60CEC00CBF04D /* DK_SolEng_First_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94539931EE60CEC00CBF04D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B945399C1EE60CEC00CBF04D /* DK_SolEng_First_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B945398E1EE60CEC00CBF04D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B94539771EE60CEB00CBF04D /* DK-SolEng First App */;
+			targetProxy = B945398D1EE60CEC00CBF04D /* PBXContainerItemProxy */;
+		};
+		B94539991EE60CEC00CBF04D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B94539771EE60CEB00CBF04D /* DK-SolEng First App */;
+			targetProxy = B94539981EE60CEC00CBF04D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B945397F1EE60CEC00CBF04D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B94539801EE60CEC00CBF04D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B94539841EE60CEC00CBF04D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B94539851EE60CEC00CBF04D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B945399E1EE60CEC00CBF04D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B945399F1EE60CEC00CBF04D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B94539A11EE60CEC00CBF04D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DK-SolEng First App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rubiconproject.DK-SolEng-First-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B94539A21EE60CEC00CBF04D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DK-SolEng First App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rubiconproject.DK-SolEng-First-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B94539A41EE60CEC00CBF04D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "DK-SolEng First AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rubiconproject.DK-SolEng-First-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DK-SolEng First App.app/DK-SolEng First App";
+			};
+			name = Debug;
+		};
+		B94539A51EE60CEC00CBF04D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "DK-SolEng First AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rubiconproject.DK-SolEng-First-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DK-SolEng First App.app/DK-SolEng First App";
+			};
+			name = Release;
+		};
+		B94539A71EE60CEC00CBF04D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "DK-SolEng First AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rubiconproject.DK-SolEng-First-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "DK-SolEng First App";
+			};
+			name = Debug;
+		};
+		B94539A81EE60CEC00CBF04D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "DK-SolEng First AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rubiconproject.DK-SolEng-First-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "DK-SolEng First App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B94539731EE60CEB00CBF04D /* Build configuration list for PBXProject "DK-SolEng First App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B945399E1EE60CEC00CBF04D /* Debug */,
+				B945399F1EE60CEC00CBF04D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B94539A01EE60CEC00CBF04D /* Build configuration list for PBXNativeTarget "DK-SolEng First App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94539A11EE60CEC00CBF04D /* Debug */,
+				B94539A21EE60CEC00CBF04D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B94539A31EE60CEC00CBF04D /* Build configuration list for PBXNativeTarget "DK-SolEng First AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94539A41EE60CEC00CBF04D /* Debug */,
+				B94539A51EE60CEC00CBF04D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B94539A61EE60CEC00CBF04D /* Build configuration list for PBXNativeTarget "DK-SolEng First AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94539A71EE60CEC00CBF04D /* Debug */,
+				B94539A81EE60CEC00CBF04D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B94539701EE60CEB00CBF04D /* Project object */;
+}
