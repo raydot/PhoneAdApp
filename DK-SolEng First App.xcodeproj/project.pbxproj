@@ -14,6 +14,7 @@
 		B94539861EE60CEC00CBF04D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94539841EE60CEC00CBF04D /* LaunchScreen.storyboard */; };
 		B94539911EE60CEC00CBF04D /* DK_SolEng_First_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94539901EE60CEC00CBF04D /* DK_SolEng_First_AppTests.swift */; };
 		B945399C1EE60CEC00CBF04D /* DK_SolEng_First_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B945399B1EE60CEC00CBF04D /* DK_SolEng_First_AppUITests.swift */; };
+		E4BF7B5BDE037E62D7192004 /* libPods-DK-SolEng First App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8C3D1FE33750A198A52E9E /* libPods-DK-SolEng First App.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2279260DBF514B36481C6A0F /* Pods-DK-SolEng First App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DK-SolEng First App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DK-SolEng First App/Pods-DK-SolEng First App.debug.xcconfig"; sourceTree = "<group>"; };
+		509AFD0D64FCE11BB12C4AD4 /* Pods-DK-SolEng First App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DK-SolEng First App.release.xcconfig"; path = "Pods/Target Support Files/Pods-DK-SolEng First App/Pods-DK-SolEng First App.release.xcconfig"; sourceTree = "<group>"; };
 		B94539781EE60CEC00CBF04D /* DK-SolEng First App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DK-SolEng First App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B945397B1EE60CEC00CBF04D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B945397D1EE60CEC00CBF04D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		B94539971EE60CEC00CBF04D /* DK-SolEng First AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DK-SolEng First AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B945399B1EE60CEC00CBF04D /* DK_SolEng_First_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DK_SolEng_First_AppUITests.swift; sourceTree = "<group>"; };
 		B945399D1EE60CEC00CBF04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF8C3D1FE33750A198A52E9E /* libPods-DK-SolEng First App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DK-SolEng First App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4BF7B5BDE037E62D7192004 /* libPods-DK-SolEng First App.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08F0DE95F6144D160613B749 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF8C3D1FE33750A198A52E9E /* libPods-DK-SolEng First App.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2F4282D5C2F0C3433505AEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2279260DBF514B36481C6A0F /* Pods-DK-SolEng First App.debug.xcconfig */,
+				509AFD0D64FCE11BB12C4AD4 /* Pods-DK-SolEng First App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B945396F1EE60CEB00CBF04D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +103,8 @@
 				B945398F1EE60CEC00CBF04D /* DK-SolEng First AppTests */,
 				B945399A1EE60CEC00CBF04D /* DK-SolEng First AppUITests */,
 				B94539791EE60CEC00CBF04D /* Products */,
+				B2F4282D5C2F0C3433505AEA /* Pods */,
+				08F0DE95F6144D160613B749 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B94539A01EE60CEC00CBF04D /* Build configuration list for PBXNativeTarget "DK-SolEng First App" */;
 			buildPhases = (
+				BAD676DB1CA3A8B29D73C410 /* [CP] Check Pods Manifest.lock */,
 				B94539741EE60CEB00CBF04D /* Sources */,
 				B94539751EE60CEB00CBF04D /* Frameworks */,
 				B94539761EE60CEB00CBF04D /* Resources */,
+				E5B4BE52DB30154F0C804D72 /* [CP] Embed Pods Frameworks */,
+				BCFC127B95B92D9B9767F426 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BAD676DB1CA3A8B29D73C410 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BCFC127B95B92D9B9767F426 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DK-SolEng First App/Pods-DK-SolEng First App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5B4BE52DB30154F0C804D72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DK-SolEng First App/Pods-DK-SolEng First App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B94539741EE60CEB00CBF04D /* Sources */ = {
@@ -412,6 +487,7 @@
 		};
 		B94539A11EE60CEC00CBF04D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2279260DBF514B36481C6A0F /* Pods-DK-SolEng First App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "DK-SolEng First App/Info.plist";
@@ -424,6 +500,7 @@
 		};
 		B94539A21EE60CEC00CBF04D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 509AFD0D64FCE11BB12C4AD4 /* Pods-DK-SolEng First App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "DK-SolEng First App/Info.plist";

@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00972326F297A6FE1B1931C9DAA7F54B /* sound_mute_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 98AD5745F3705848021393577C590BB9 /* sound_mute_icon.png */; };
+		06AA116865B8BB454700CFFDB40FF823 /* screen_normal_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 344A3F7FC8DD6B27ABA99D9DDDD4B549 /* screen_normal_icon@2x.png */; };
+		0CF5E4CE8BD275116FE6BEA8CF745C08 /* close2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C562B167B20A8D438B3490D98B8715 /* close2@2x.png */; };
+		10BA09EEB469DAC3F9418A5A910225ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		15B67D7CA63E058A178CE8FAB7BBAC90 /* screen_normal_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E97A3238F12106E9C12A77A858D37A0 /* screen_normal_icon@3x.png */; };
+		162F9C8B8D56C92B81B692B797FC7D02 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 632144383A16DE6B7579FBD49ACB5241 /* back@2x.png */; };
+		18851AED429CC1BF95169DEF496B9635 /* pause_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E0DF3BF11292AD30DC4E993870D3F0BF /* pause_icon.png */; };
+		19DB9B05B7C0939E36EF37467153BE36 /* forward@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F254D66AE41B76C3E67123DE8E203DE7 /* forward@3x.png */; };
+		1B32CB3C508BA4484499AEE5E6295949 /* pause_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60D7F409CB2259E53CA780CA3BAA2BD8 /* pause_icon@2x.png */; };
+		2C664E8E8ED130F9A8D37D2181DC6B39 /* forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0F38EC7D5DD37185AE5D23A8D95F114 /* forward@2x.png */; };
+		31569FC4D797533A0A63D3E782480275 /* browser_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA8C7C4CDC47648CE2E666C61CA3BF9 /* browser_close@2x.png */; };
+		350C742B9936FCCFD801A0BCB306EF86 /* Pods-DK-SolEng First App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CFA390615B5E56A4D35113ABDFDBC7 /* Pods-DK-SolEng First App-dummy.m */; };
+		3B50F73C23658897FD4B114C1706FE44 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71FB32A9410DB316D4A425489BEEEA5E /* Info.plist */; };
+		41202E9885054A774A071B337D4D57D5 /* sound_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D288D6221BB14A337F032D01A8B3D3A1 /* sound_icon.png */; };
+		47831FD06C255D7E91AA0A6AAA140597 /* close2.png in Resources */ = {isa = PBXBuildFile; fileRef = 188CC0087AE67CB4CA170693217C04D9 /* close2.png */; };
+		4C21B87EE4D8647FEF24ED4D9512F19E /* vast_2.0.1.xsd in Resources */ = {isa = PBXBuildFile; fileRef = 9F0EBF47BAEE94830C3C856D848883C6 /* vast_2.0.1.xsd */; };
+		4E3C13AE813DADAEBBC5FBB51663DFDC /* sound_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A6597D8DC710B0FC7BD0309F81D03C /* sound_icon@2x.png */; };
+		50243FC5B14ADB15EF65DFD4E7CB1843 /* sound_mute_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A73B42553894938EC4739D700EBE52 /* sound_mute_icon@2x.png */; };
+		51CCC677CC99A05E36A6D21FB7EC547D /* pause_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4763D4706D9D28E375AE03FADCF01F /* pause_icon@3x.png */; };
+		54C33914670C6B1700F540620B1C049C /* play_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47FA9E4C086DC25E532A6DDFBDA37DE1 /* play_icon@2x.png */; };
+		5B037AFFEB53487060A8FFA4ED5607B2 /* screen_full_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FE06F8A6BE86D6F96A94E69D5FB1011 /* screen_full_icon@3x.png */; };
+		65DF45964736DEFE952A986634B320F0 /* browser_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 855A0191AAA8B381946842ADA5891441 /* browser_close@3x.png */; };
+		6FB5A71B9AA9E130DDC318FEBA6E0F83 /* play_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF5F672199E650AE9CB80D579A96340 /* play_icon.png */; };
+		813ED1DFC0AA839D4C57132C6B57CAF9 /* play_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C522B03CEB3BDD8D429B45DE6CC2016A /* play_icon@3x.png */; };
+		8C83189A07DAA2D4C69E372CD1C3E5ED /* rfm_mraid.js in Resources */ = {isa = PBXBuildFile; fileRef = D109C915FB803133D6A2A0162B73719C /* rfm_mraid.js */; };
+		91AB62AB358AB56D4BCEB1F26F02BDFE /* screen_full_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60EF511B670EDEBFA9770151F99C9515 /* screen_full_icon@2x.png */; };
+		96DC61B5DF742D2AEDC436FC06714FEE /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C04E468DF396863FE03C322EA4BD4CE /* close.png */; };
+		9F9CB622338DACF6FB5AE2A57E92A41E /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 179E7C3323BD9992858B8DBB409A677C /* forward.png */; };
+		A3FB22FF84C1680B465C2C49AFF5847E /* sound_mute_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50DA83A51AA13D1035466524D697DB15 /* sound_mute_icon@3x.png */; };
+		A996689443ACC0CBDA8F15BA474DDA06 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F2D4498915ADF1D293B6065D3AF64A1 /* back.png */; };
+		B4A783F453FE1A1059B4EE9D70145846 /* close2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6F6367587606383D103017D86BBAB1 /* close2@3x.png */; };
+		BD9DD75CC4AF91F6074704F6F8330385 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87B4361040283B991D6233A53F6EFE75 /* close@2x.png */; };
+		C3C029305460A16658DD03283065B279 /* screen_full_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4029A8F4F1EE5B2DDD8A5E066267A15E /* screen_full_icon.png */; };
+		D591B3237DD5B79FAFD148D8D18076E4 /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B5389890079EB98921361579465E2F1 /* back@3x.png */; };
+		D5DC2E501D9AFFACF2003727456274AD /* screen_normal_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 21B86E22A394C78C2D9FE1F93863E8A5 /* screen_normal_icon.png */; };
+		D6EC538B847A159D65C10C85BA9AF734 /* close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D79DBAF55EFE448801FA6308DDB407CD /* close@3x.png */; };
+		DF8AEE011AA0AD8F399FBF4703344711 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9F4034AFA9E1A0AFE472621A4BD88F7 /* InfoPlist.strings */; };
+		E4D7E27FBBC920C04954E3646B564CDD /* sound_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D9591B2A0FACC3F504A705FA96BD346 /* sound_icon@3x.png */; };
+		F08F582EF0AD8625FAE836BAD827B573 /* browser_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CE60662B9632DC085591047DF2B8AD /* browser_close.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3E2635812EFE1CCCA8046285F587C2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56F4B8E7B6EF98F4A8D31D6FDC025324;
+			remoteInfo = "RFMAdSDK-RFMAdSDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BB33C50853BAF1B6661D8EFB3CCE244 /* RFMAdRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFMAdRequest.h; path = RFMAdSDK/RFMAdSDK.framework/Versions/A/Headers/RFMAdRequest.h; sourceTree = "<group>"; };
+		10466DCC593F35B71F226166A0C8A358 /* RFMAdDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFMAdDelegate.h; path = RFMAdSDK/RFMAdSDK.framework/Versions/A/Headers/RFMAdDelegate.h; sourceTree = "<group>"; };
+		135E977A0E893796D67ABABC46B87250 /* RFMAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RFMAdSDK.framework; path = RFMAdSDK/RFMAdSDK.framework; sourceTree = "<group>"; };
+		179E7C3323BD9992858B8DBB409A677C /* forward.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = forward.png; path = RFMAdSDK/RFMAdSDK.bundle/forward.png; sourceTree = "<group>"; };
+		188CC0087AE67CB4CA170693217C04D9 /* close2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = close2.png; path = RFMAdSDK/RFMAdSDK.bundle/close2.png; sourceTree = "<group>"; };
+		1B5389890079EB98921361579465E2F1 /* back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "back@3x.png"; path = "RFMAdSDK/RFMAdSDK.bundle/back@3x.png"; sourceTree = "<group>"; };
+		1D9591B2A0FACC3F504A705FA96BD346 /* sound_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "sound_icon@3x.png"; path = "RFMAdSDK/RFMAdSDK.bundle/sound_icon@3x.png"; sourceTree = "<group>"; };
+		1F2D4498915ADF1D293B6065D3AF64A1 /* back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = back.png; path = RFMAdSDK/RFMAdSDK.bundle/back.png; sourceTree = "<group>"; };
+		21B86E22A394C78C2D9FE1F93863E8A5 /* screen_normal_icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = screen_normal_icon.png; path = RFMAdSDK/RFMAdSDK.bundle/screen_normal_icon.png; sourceTree = "<group>"; };
+		2BF5F672199E650AE9CB80D579A96340 /* play_icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = play_icon.png; path = RFMAdSDK/RFMAdSDK.bundle/play_icon.png; sourceTree = "<group>"; };
+		2F4763D4706D9D28E375AE03FADCF01F /* pause_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "pause_icon@3x.png"; path = "RFMAdSDK/RFMAdSDK.bundle/pause_icon@3x.png"; sourceTree = "<group>"; };
+		3041DF341FBDF3632927AB8DB90EA169 /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32C562B167B20A8D438B3490D98B8715 /* close2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close2@2x.png"; path = "RFMAdSDK/RFMAdSDK.bundle/close2@2x.png"; sourceTree = "<group>"; };
+		344A3F7FC8DD6B27ABA99D9DDDD4B549 /* screen_normal_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "screen_normal_icon@2x.png"; path = "RFMAdSDK/RFMAdSDK.bundle/screen_normal_icon@2x.png"; sourceTree = "<group>"; };
+		36CFA390615B5E56A4D35113ABDFDBC7 /* Pods-DK-SolEng First App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DK-SolEng First App-dummy.m"; sourceTree = "<group>"; };
+		4029A8F4F1EE5B2DDD8A5E066267A15E /* screen_full_icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = screen_full_icon.png; path = RFMAdSDK/RFMAdSDK.bundle/screen_full_icon.png; sourceTree = "<group>"; };
+		43E29B2018715A73F99086A6ABE96875 /* RFMNativeDataAsset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFMNativeDataAsset.h; path = RFMAdSDK/RFMAdSDK.framework/Versions/A/Headers/RFMNativeDataAsset.h; sourceTree = "<group>"; };
+		457C45962A648F650D1121B578D94CB5 /* RFMNativeAssets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFMNativeAssets.h; path = RFMAdSDK/RFMAdSDK.framework/Versions/A/Headers/RFMNativeAssets.h; sourceTree = "<group>"; };
+		45A2EF7C4D8182CAF6FCCC3D8879B4D4 /* RFMNativeVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFMNativeVideo.h; path = RFMAdSDK/RFMAdSDK.framework/Versions/A/Headers/RFMNativeVideo.h; sourceTree = "<group>"; };
+		47FA9E4C086DC25E532A6DDFBDA37DE1 /* play_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "play_icon@2x.png"; path = "RFMAdSDK/RFMAdSDK.bundle/play_icon@2x.png"; sourceTree = "<group>"; };
+		4D157E61373C50A85CE9F9B971DFB9C0 /* RFMMediationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFMMediationHelper.h; path = RFMAdSDK/RFMAdSDK.framework/Versions/A/Headers/RFMMediationHelper.h; sourceTree = "<group>"; };
+		4D6D1949FF2C72D328A15D6589CA4BCB /* Pods-DK-SolEng First App-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DK-SolEng First App-resources.sh"; sourceTree = "<group>"; };
+		50DA83A51AA13D1035466524D697DB15 /* sound_mute_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "sound_mute_icon@3x.png"; path = "RFMAdSDK/RFMAdSDK.bundle/sound_mute_icon@3x.png"; sourceTree = "<group>"; };
+		5626808A4FB3471B7A1AAD5CCD9E5401 /* RFMAdSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFMAdSDK.h; path = RFMAdSDK/RFMAdSDK.framework/Versions/A/Headers/RFMAdSDK.h; sourceTree = "<group>"; };
+		57CE60662B9632DC085591047DF2B8AD /* browser_close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = browser_close.png; path = RFMAdSDK/RFMAdSDK.bundle/browser_close.png; sourceTree = "<group>"; };
+		589B4292BF68C756F333091EA927F616 /* RFMBaseMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFMBaseMediator.h; path = RFMAdSDK/RFMAdSDK.framework/Versions/A/Headers/RFMBaseMediator.h; sourceTree = "<group>"; };
+		58B9A48FD803C715F1E4BD3C33D091E5 /* RFMBaseMediatorDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFMBaseMediatorDelegate.h; path = RFMAdSDK/RFMAdSDK.framework/Versions/A/Headers/RFMBaseMediatorDelegate.h; sourceTree = "<group>"; };
+		5EBA8B6CE6EF4FCCC9B0C97C7EA5C883 /* RFMNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFMNativeAd.h; path = RFMAdSDK/RFMAdSDK.framework/Versions/A/Headers/RFMNativeAd.h; sourceTree = "<group>"; };
+		5FE06F8A6BE86D6F96A94E69D5FB1011 /* screen_full_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "screen_full_icon@3x.png"; path = "RFMAdSDK/RFMAdSDK.bundle/screen_full_icon@3x.png"; sourceTree = "<group>"; };
+		60D7F409CB2259E53CA780CA3BAA2BD8 /* pause_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "pause_icon@2x.png"; path = "RFMAdSDK/RFMAdSDK.bundle/pause_icon@2x.png"; sourceTree = "<group>"; };
+		60EF511B670EDEBFA9770151F99C9515 /* screen_full_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "screen_full_icon@2x.png"; path = "RFMAdSDK/RFMAdSDK.bundle/screen_full_icon@2x.png"; sourceTree = "<group>"; };
+		632144383A16DE6B7579FBD49ACB5241 /* back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "back@2x.png"; path = "RFMAdSDK/RFMAdSDK.bundle/back@2x.png"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		70E1A482E60030FE3C027B5F6030DDEC /* RFMReward.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFMReward.h; path = RFMAdSDK/RFMAdSDK.framework/Versions/A/Headers/RFMReward.h; sourceTree = "<group>"; };
+		71FB32A9410DB316D4A425489BEEEA5E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = RFMAdSDK/RFMAdSDK.bundle/Info.plist; sourceTree = "<group>"; };
+		72B6E2308FDBF85738880D66D3835745 /* RFMFastLane.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFMFastLane.h; path = RFMAdSDK/RFMAdSDK.framework/Versions/A/Headers/RFMFastLane.h; sourceTree = "<group>"; };
+		7440B330BCAF04E3E8D25A1DF7F862A4 /* RFMNativeLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFMNativeLink.h; path = RFMAdSDK/RFMAdSDK.framework/Versions/A/Headers/RFMNativeLink.h; sourceTree = "<group>"; };
+		747146A2F114AE60F6A009BCDC4BEBCE /* libPods-DK-SolEng First App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DK-SolEng First App.a"; path = "libPods-DK-SolEng First App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C5E725111F49FFEC54E3B03B8FC97B /* RFMAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFMAdView.h; path = RFMAdSDK/RFMAdSDK.framework/Versions/A/Headers/RFMAdView.h; sourceTree = "<group>"; };
+		7C04E468DF396863FE03C322EA4BD4CE /* close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = close.png; path = RFMAdSDK/RFMAdSDK.bundle/close.png; sourceTree = "<group>"; };
+		7E523059CE004E1F3C995C6FAB12BE88 /* Pods-DK-SolEng First App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DK-SolEng First App.release.xcconfig"; sourceTree = "<group>"; };
+		81956F359E870F15EE472EFEBC695647 /* RFMNativeImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFMNativeImage.h; path = RFMAdSDK/RFMAdSDK.framework/Versions/A/Headers/RFMNativeImage.h; sourceTree = "<group>"; };
+		855A0191AAA8B381946842ADA5891441 /* browser_close@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "browser_close@3x.png"; path = "RFMAdSDK/RFMAdSDK.bundle/browser_close@3x.png"; sourceTree = "<group>"; };
+		8640A1455362D80D2231EB68F83197C5 /* RFMPartnerMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFMPartnerMediator.h; path = RFMAdSDK/RFMAdSDK.framework/Versions/A/Headers/RFMPartnerMediator.h; sourceTree = "<group>"; };
+		87B4361040283B991D6233A53F6EFE75 /* close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close@2x.png"; path = "RFMAdSDK/RFMAdSDK.bundle/close@2x.png"; sourceTree = "<group>"; };
+		8E34E955A8FE6E8A271054E5BF965D39 /* RFMRewardedVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFMRewardedVideo.h; path = RFMAdSDK/RFMAdSDK.framework/Versions/A/Headers/RFMRewardedVideo.h; sourceTree = "<group>"; };
+		8F622A04E40BB593DCF8A601D7821745 /* RFMMediationConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFMMediationConstants.h; path = RFMAdSDK/RFMAdSDK.framework/Versions/A/Headers/RFMMediationConstants.h; sourceTree = "<group>"; };
+		92302ACB7CD83B6887C630CAABE72863 /* Pods-DK-SolEng First App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DK-SolEng First App.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98AD5745F3705848021393577C590BB9 /* sound_mute_icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = sound_mute_icon.png; path = RFMAdSDK/RFMAdSDK.bundle/sound_mute_icon.png; sourceTree = "<group>"; };
+		9E97A3238F12106E9C12A77A858D37A0 /* screen_normal_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "screen_normal_icon@3x.png"; path = "RFMAdSDK/RFMAdSDK.bundle/screen_normal_icon@3x.png"; sourceTree = "<group>"; };
+		9F0EBF47BAEE94830C3C856D848883C6 /* vast_2.0.1.xsd */ = {isa = PBXFileReference; includeInIndex = 1; name = vast_2.0.1.xsd; path = RFMAdSDK/RFMAdSDK.bundle/vast_2.0.1.xsd; sourceTree = "<group>"; };
+		A6835F8529B8F0BB6CFBEACEEBEA3099 /* Pods-DK-SolEng First App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DK-SolEng First App-acknowledgements.plist"; sourceTree = "<group>"; };
+		B02A6FD5B342118699954A3ED2BB1C13 /* Pods-DK-SolEng First App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DK-SolEng First App-frameworks.sh"; sourceTree = "<group>"; };
+		B0F38EC7D5DD37185AE5D23A8D95F114 /* forward@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "forward@2x.png"; path = "RFMAdSDK/RFMAdSDK.bundle/forward@2x.png"; sourceTree = "<group>"; };
+		B2312090927B0D69FA6267894E329729 /* RFMSupportedMediations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFMSupportedMediations.h; path = RFMAdSDK/RFMAdSDK.framework/Versions/A/Headers/RFMSupportedMediations.h; sourceTree = "<group>"; };
+		B6A73B42553894938EC4739D700EBE52 /* sound_mute_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "sound_mute_icon@2x.png"; path = "RFMAdSDK/RFMAdSDK.bundle/sound_mute_icon@2x.png"; sourceTree = "<group>"; };
+		BC024CA2A94222FD26BE0C0284CEAE6D /* RFMSDKHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFMSDKHelper.h; path = RFMAdSDK/RFMAdSDK.framework/Versions/A/Headers/RFMSDKHelper.h; sourceTree = "<group>"; };
+		BC6F6367587606383D103017D86BBAB1 /* close2@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close2@3x.png"; path = "RFMAdSDK/RFMAdSDK.bundle/close2@3x.png"; sourceTree = "<group>"; };
+		C3A6597D8DC710B0FC7BD0309F81D03C /* sound_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "sound_icon@2x.png"; path = "RFMAdSDK/RFMAdSDK.bundle/sound_icon@2x.png"; sourceTree = "<group>"; };
+		C522B03CEB3BDD8D429B45DE6CC2016A /* play_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "play_icon@3x.png"; path = "RFMAdSDK/RFMAdSDK.bundle/play_icon@3x.png"; sourceTree = "<group>"; };
+		CC1EA9B34B29990C096502A3E3632456 /* RFMAdSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RFMAdSDK.bundle; path = RFMAdSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD3FB17A786F2251D1C3F01FBAD5D01 /* Pods-DK-SolEng First App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DK-SolEng First App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D109C915FB803133D6A2A0162B73719C /* rfm_mraid.js */ = {isa = PBXFileReference; includeInIndex = 1; name = rfm_mraid.js; path = RFMAdSDK/RFMAdSDK.bundle/rfm_mraid.js; sourceTree = "<group>"; };
+		D13325DA0BC152CA05F0D150CBAB4984 /* ResourceBundle-RFMAdSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RFMAdSDK-Info.plist"; sourceTree = "<group>"; };
+		D288D6221BB14A337F032D01A8B3D3A1 /* sound_icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = sound_icon.png; path = RFMAdSDK/RFMAdSDK.bundle/sound_icon.png; sourceTree = "<group>"; };
+		D79DBAF55EFE448801FA6308DDB407CD /* close@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close@3x.png"; path = "RFMAdSDK/RFMAdSDK.bundle/close@3x.png"; sourceTree = "<group>"; };
+		D7CBAAC783F0573B058EAA323A46F206 /* RFMAdConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFMAdConstants.h; path = RFMAdSDK/RFMAdSDK.framework/Versions/A/Headers/RFMAdConstants.h; sourceTree = "<group>"; };
+		E0DF3BF11292AD30DC4E993870D3F0BF /* pause_icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = pause_icon.png; path = RFMAdSDK/RFMAdSDK.bundle/pause_icon.png; sourceTree = "<group>"; };
+		E26DE8F6E55B20D5B153BCA999D31861 /* RFMNativeAdChoices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFMNativeAdChoices.h; path = RFMAdSDK/RFMAdSDK.framework/Versions/A/Headers/RFMNativeAdChoices.h; sourceTree = "<group>"; };
+		E9B2BA4DF8050BBA892EA29C1A83C7FB /* RFMNativeTitle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFMNativeTitle.h; path = RFMAdSDK/RFMAdSDK.framework/Versions/A/Headers/RFMNativeTitle.h; sourceTree = "<group>"; };
+		EBA8C7C4CDC47648CE2E666C61CA3BF9 /* browser_close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "browser_close@2x.png"; path = "RFMAdSDK/RFMAdSDK.bundle/browser_close@2x.png"; sourceTree = "<group>"; };
+		F254D66AE41B76C3E67123DE8E203DE7 /* forward@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "forward@3x.png"; path = "RFMAdSDK/RFMAdSDK.bundle/forward@3x.png"; sourceTree = "<group>"; };
+		F27C4A65425985DD8AD97A9632C36A5E /* RFMNativeAdResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFMNativeAdResponse.h; path = RFMAdSDK/RFMAdSDK.framework/Versions/A/Headers/RFMNativeAdResponse.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		344C46763CF30A056C84E1E7B63AAC5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447364669AB32C0E46AC79226C16117C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10BA09EEB469DAC3F9418A5A910225ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09549C0EABC0C7618B9CDBF849C0419B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				747146A2F114AE60F6A009BCDC4BEBCE /* libPods-DK-SolEng First App.a */,
+				CC1EA9B34B29990C096502A3E3632456 /* RFMAdSDK.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16ABFEEDAD4867A1E059DBCB5C512B39 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F2D4498915ADF1D293B6065D3AF64A1 /* back.png */,
+				632144383A16DE6B7579FBD49ACB5241 /* back@2x.png */,
+				1B5389890079EB98921361579465E2F1 /* back@3x.png */,
+				57CE60662B9632DC085591047DF2B8AD /* browser_close.png */,
+				EBA8C7C4CDC47648CE2E666C61CA3BF9 /* browser_close@2x.png */,
+				855A0191AAA8B381946842ADA5891441 /* browser_close@3x.png */,
+				7C04E468DF396863FE03C322EA4BD4CE /* close.png */,
+				188CC0087AE67CB4CA170693217C04D9 /* close2.png */,
+				32C562B167B20A8D438B3490D98B8715 /* close2@2x.png */,
+				BC6F6367587606383D103017D86BBAB1 /* close2@3x.png */,
+				87B4361040283B991D6233A53F6EFE75 /* close@2x.png */,
+				D79DBAF55EFE448801FA6308DDB407CD /* close@3x.png */,
+				179E7C3323BD9992858B8DBB409A677C /* forward.png */,
+				B0F38EC7D5DD37185AE5D23A8D95F114 /* forward@2x.png */,
+				F254D66AE41B76C3E67123DE8E203DE7 /* forward@3x.png */,
+				71FB32A9410DB316D4A425489BEEEA5E /* Info.plist */,
+				F9F4034AFA9E1A0AFE472621A4BD88F7 /* InfoPlist.strings */,
+				E0DF3BF11292AD30DC4E993870D3F0BF /* pause_icon.png */,
+				60D7F409CB2259E53CA780CA3BAA2BD8 /* pause_icon@2x.png */,
+				2F4763D4706D9D28E375AE03FADCF01F /* pause_icon@3x.png */,
+				2BF5F672199E650AE9CB80D579A96340 /* play_icon.png */,
+				47FA9E4C086DC25E532A6DDFBDA37DE1 /* play_icon@2x.png */,
+				C522B03CEB3BDD8D429B45DE6CC2016A /* play_icon@3x.png */,
+				D109C915FB803133D6A2A0162B73719C /* rfm_mraid.js */,
+				4029A8F4F1EE5B2DDD8A5E066267A15E /* screen_full_icon.png */,
+				60EF511B670EDEBFA9770151F99C9515 /* screen_full_icon@2x.png */,
+				5FE06F8A6BE86D6F96A94E69D5FB1011 /* screen_full_icon@3x.png */,
+				21B86E22A394C78C2D9FE1F93863E8A5 /* screen_normal_icon.png */,
+				344A3F7FC8DD6B27ABA99D9DDDD4B549 /* screen_normal_icon@2x.png */,
+				9E97A3238F12106E9C12A77A858D37A0 /* screen_normal_icon@3x.png */,
+				D288D6221BB14A337F032D01A8B3D3A1 /* sound_icon.png */,
+				C3A6597D8DC710B0FC7BD0309F81D03C /* sound_icon@2x.png */,
+				1D9591B2A0FACC3F504A705FA96BD346 /* sound_icon@3x.png */,
+				98AD5745F3705848021393577C590BB9 /* sound_mute_icon.png */,
+				B6A73B42553894938EC4739D700EBE52 /* sound_mute_icon@2x.png */,
+				50DA83A51AA13D1035466524D697DB15 /* sound_mute_icon@3x.png */,
+				9F0EBF47BAEE94830C3C856D848883C6 /* vast_2.0.1.xsd */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		222C71D2B93C2729C577F335EE3C08B4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D13325DA0BC152CA05F0D150CBAB4984 /* ResourceBundle-RFMAdSDK-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RFMAdSDK";
+			sourceTree = "<group>";
+		};
+		2D9B563F1DFB5E26B7D7B2CF6CF7FA84 /* Pods-DK-SolEng First App */ = {
+			isa = PBXGroup;
+			children = (
+				CFD3FB17A786F2251D1C3F01FBAD5D01 /* Pods-DK-SolEng First App-acknowledgements.markdown */,
+				A6835F8529B8F0BB6CFBEACEEBEA3099 /* Pods-DK-SolEng First App-acknowledgements.plist */,
+				36CFA390615B5E56A4D35113ABDFDBC7 /* Pods-DK-SolEng First App-dummy.m */,
+				B02A6FD5B342118699954A3ED2BB1C13 /* Pods-DK-SolEng First App-frameworks.sh */,
+				4D6D1949FF2C72D328A15D6589CA4BCB /* Pods-DK-SolEng First App-resources.sh */,
+				92302ACB7CD83B6887C630CAABE72863 /* Pods-DK-SolEng First App.debug.xcconfig */,
+				7E523059CE004E1F3C995C6FAB12BE88 /* Pods-DK-SolEng First App.release.xcconfig */,
+			);
+			name = "Pods-DK-SolEng First App";
+			path = "Target Support Files/Pods-DK-SolEng First App";
+			sourceTree = "<group>";
+		};
+		365B24D1588325AF03399FEA93CC9D71 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D9B563F1DFB5E26B7D7B2CF6CF7FA84 /* Pods-DK-SolEng First App */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		53110BCE4CDB090B1EA1DE1E89161AFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				135E977A0E893796D67ABABC46B87250 /* RFMAdSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D480B630F9B8B02B6C7079F15BB646B5 /* Pods */,
+				09549C0EABC0C7618B9CDBF849C0419B /* Products */,
+				365B24D1588325AF03399FEA93CC9D71 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D480B630F9B8B02B6C7079F15BB646B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED73F308D95181A2C980375EA874B372 /* RFMAdSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED73F308D95181A2C980375EA874B372 /* RFMAdSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D7CBAAC783F0573B058EAA323A46F206 /* RFMAdConstants.h */,
+				10466DCC593F35B71F226166A0C8A358 /* RFMAdDelegate.h */,
+				0BB33C50853BAF1B6661D8EFB3CCE244 /* RFMAdRequest.h */,
+				5626808A4FB3471B7A1AAD5CCD9E5401 /* RFMAdSDK.h */,
+				75C5E725111F49FFEC54E3B03B8FC97B /* RFMAdView.h */,
+				589B4292BF68C756F333091EA927F616 /* RFMBaseMediator.h */,
+				58B9A48FD803C715F1E4BD3C33D091E5 /* RFMBaseMediatorDelegate.h */,
+				72B6E2308FDBF85738880D66D3835745 /* RFMFastLane.h */,
+				8F622A04E40BB593DCF8A601D7821745 /* RFMMediationConstants.h */,
+				4D157E61373C50A85CE9F9B971DFB9C0 /* RFMMediationHelper.h */,
+				5EBA8B6CE6EF4FCCC9B0C97C7EA5C883 /* RFMNativeAd.h */,
+				E26DE8F6E55B20D5B153BCA999D31861 /* RFMNativeAdChoices.h */,
+				F27C4A65425985DD8AD97A9632C36A5E /* RFMNativeAdResponse.h */,
+				457C45962A648F650D1121B578D94CB5 /* RFMNativeAssets.h */,
+				43E29B2018715A73F99086A6ABE96875 /* RFMNativeDataAsset.h */,
+				81956F359E870F15EE472EFEBC695647 /* RFMNativeImage.h */,
+				7440B330BCAF04E3E8D25A1DF7F862A4 /* RFMNativeLink.h */,
+				E9B2BA4DF8050BBA892EA29C1A83C7FB /* RFMNativeTitle.h */,
+				45A2EF7C4D8182CAF6FCCC3D8879B4D4 /* RFMNativeVideo.h */,
+				8640A1455362D80D2231EB68F83197C5 /* RFMPartnerMediator.h */,
+				70E1A482E60030FE3C027B5F6030DDEC /* RFMReward.h */,
+				8E34E955A8FE6E8A271054E5BF965D39 /* RFMRewardedVideo.h */,
+				BC024CA2A94222FD26BE0C0284CEAE6D /* RFMSDKHelper.h */,
+				B2312090927B0D69FA6267894E329729 /* RFMSupportedMediations.h */,
+				53110BCE4CDB090B1EA1DE1E89161AFC /* Frameworks */,
+				16ABFEEDAD4867A1E059DBCB5C512B39 /* Resources */,
+				222C71D2B93C2729C577F335EE3C08B4 /* Support Files */,
+			);
+			name = RFMAdSDK;
+			path = RFMAdSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		474A182A74E51C1B87DB79ED10B72A44 /* Pods-DK-SolEng First App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F64ED2F08FE4E278B3750DAD6D0F728A /* Build configuration list for PBXNativeTarget "Pods-DK-SolEng First App" */;
+			buildPhases = (
+				CBEBF1E770C68444E94B63A9AFD56C7C /* Sources */,
+				447364669AB32C0E46AC79226C16117C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CF04BEAD0355BA9DAB4DBF9EAE82422 /* PBXTargetDependency */,
+			);
+			name = "Pods-DK-SolEng First App";
+			productName = "Pods-DK-SolEng First App";
+			productReference = 747146A2F114AE60F6A009BCDC4BEBCE /* libPods-DK-SolEng First App.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		56F4B8E7B6EF98F4A8D31D6FDC025324 /* RFMAdSDK-RFMAdSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6734FA1C3C240B69B2257E8382F6E018 /* Build configuration list for PBXNativeTarget "RFMAdSDK-RFMAdSDK" */;
+			buildPhases = (
+				094611C2794AEE40D03578B849ED2BB5 /* Sources */,
+				344C46763CF30A056C84E1E7B63AAC5C /* Frameworks */,
+				26A0798230911D14BE6206EB0D1BA571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RFMAdSDK-RFMAdSDK";
+			productName = "RFMAdSDK-RFMAdSDK";
+			productReference = CC1EA9B34B29990C096502A3E3632456 /* RFMAdSDK.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 09549C0EABC0C7618B9CDBF849C0419B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				474A182A74E51C1B87DB79ED10B72A44 /* Pods-DK-SolEng First App */,
+				56F4B8E7B6EF98F4A8D31D6FDC025324 /* RFMAdSDK-RFMAdSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26A0798230911D14BE6206EB0D1BA571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A996689443ACC0CBDA8F15BA474DDA06 /* back.png in Resources */,
+				162F9C8B8D56C92B81B692B797FC7D02 /* back@2x.png in Resources */,
+				D591B3237DD5B79FAFD148D8D18076E4 /* back@3x.png in Resources */,
+				F08F582EF0AD8625FAE836BAD827B573 /* browser_close.png in Resources */,
+				31569FC4D797533A0A63D3E782480275 /* browser_close@2x.png in Resources */,
+				65DF45964736DEFE952A986634B320F0 /* browser_close@3x.png in Resources */,
+				96DC61B5DF742D2AEDC436FC06714FEE /* close.png in Resources */,
+				47831FD06C255D7E91AA0A6AAA140597 /* close2.png in Resources */,
+				0CF5E4CE8BD275116FE6BEA8CF745C08 /* close2@2x.png in Resources */,
+				B4A783F453FE1A1059B4EE9D70145846 /* close2@3x.png in Resources */,
+				BD9DD75CC4AF91F6074704F6F8330385 /* close@2x.png in Resources */,
+				D6EC538B847A159D65C10C85BA9AF734 /* close@3x.png in Resources */,
+				9F9CB622338DACF6FB5AE2A57E92A41E /* forward.png in Resources */,
+				2C664E8E8ED130F9A8D37D2181DC6B39 /* forward@2x.png in Resources */,
+				19DB9B05B7C0939E36EF37467153BE36 /* forward@3x.png in Resources */,
+				3B50F73C23658897FD4B114C1706FE44 /* Info.plist in Resources */,
+				DF8AEE011AA0AD8F399FBF4703344711 /* InfoPlist.strings in Resources */,
+				18851AED429CC1BF95169DEF496B9635 /* pause_icon.png in Resources */,
+				1B32CB3C508BA4484499AEE5E6295949 /* pause_icon@2x.png in Resources */,
+				51CCC677CC99A05E36A6D21FB7EC547D /* pause_icon@3x.png in Resources */,
+				6FB5A71B9AA9E130DDC318FEBA6E0F83 /* play_icon.png in Resources */,
+				54C33914670C6B1700F540620B1C049C /* play_icon@2x.png in Resources */,
+				813ED1DFC0AA839D4C57132C6B57CAF9 /* play_icon@3x.png in Resources */,
+				8C83189A07DAA2D4C69E372CD1C3E5ED /* rfm_mraid.js in Resources */,
+				C3C029305460A16658DD03283065B279 /* screen_full_icon.png in Resources */,
+				91AB62AB358AB56D4BCEB1F26F02BDFE /* screen_full_icon@2x.png in Resources */,
+				5B037AFFEB53487060A8FFA4ED5607B2 /* screen_full_icon@3x.png in Resources */,
+				D5DC2E501D9AFFACF2003727456274AD /* screen_normal_icon.png in Resources */,
+				06AA116865B8BB454700CFFDB40FF823 /* screen_normal_icon@2x.png in Resources */,
+				15B67D7CA63E058A178CE8FAB7BBAC90 /* screen_normal_icon@3x.png in Resources */,
+				41202E9885054A774A071B337D4D57D5 /* sound_icon.png in Resources */,
+				4E3C13AE813DADAEBBC5FBB51663DFDC /* sound_icon@2x.png in Resources */,
+				E4D7E27FBBC920C04954E3646B564CDD /* sound_icon@3x.png in Resources */,
+				00972326F297A6FE1B1931C9DAA7F54B /* sound_mute_icon.png in Resources */,
+				50243FC5B14ADB15EF65DFD4E7CB1843 /* sound_mute_icon@2x.png in Resources */,
+				A3FB22FF84C1680B465C2C49AFF5847E /* sound_mute_icon@3x.png in Resources */,
+				4C21B87EE4D8647FEF24ED4D9512F19E /* vast_2.0.1.xsd in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		094611C2794AEE40D03578B849ED2BB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBEBF1E770C68444E94B63A9AFD56C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350C742B9936FCCFD801A0BCB306EF86 /* Pods-DK-SolEng First App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CF04BEAD0355BA9DAB4DBF9EAE82422 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RFMAdSDK-RFMAdSDK";
+			target = 56F4B8E7B6EF98F4A8D31D6FDC025324 /* RFMAdSDK-RFMAdSDK */;
+			targetProxy = B3E2635812EFE1CCCA8046285F587C2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9F4034AFA9E1A0AFE472621A4BD88F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3041DF341FBDF3632927AB8DB90EA169 /* InfoPlist.strings */,
+			);
+			name = InfoPlist.strings;
+			path = RFMAdSDK/RFMAdSDK.bundle;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E3AB455EEC44F2592BB032E3F05BFD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92302ACB7CD83B6887C630CAABE72863 /* Pods-DK-SolEng First App.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3890D7C92DE120C2BA762135796CFA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		472E94CB03ECD814F593B144E7425F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RFMAdSDK";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/RFMAdSDK/ResourceBundle-RFMAdSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = RFMAdSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		575D6C0EC41F86D88B6E2DEF6DA8F578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E523059CE004E1F3C995C6FAB12BE88 /* Pods-DK-SolEng First App.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		587B8ECC28E3A9FF4796C121925DC113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9A98402DFD0C8DEC66939D643AE9F939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RFMAdSDK";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/RFMAdSDK/ResourceBundle-RFMAdSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = RFMAdSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587B8ECC28E3A9FF4796C121925DC113 /* Debug */,
+				3890D7C92DE120C2BA762135796CFA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6734FA1C3C240B69B2257E8382F6E018 /* Build configuration list for PBXNativeTarget "RFMAdSDK-RFMAdSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A98402DFD0C8DEC66939D643AE9F939 /* Debug */,
+				472E94CB03ECD814F593B144E7425F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F64ED2F08FE4E278B3750DAD6D0F728A /* Build configuration list for PBXNativeTarget "Pods-DK-SolEng First App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3AB455EEC44F2592BB032E3F05BFD0 /* Debug */,
+				575D6C0EC41F86D88B6E2DEF6DA8F578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
