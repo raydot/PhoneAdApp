@@ -13,7 +13,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    func applicationDidFinishLaunching(_ application: UIApplication) {
+        //MARK: RubiconInit
+        //[RFMAdSDK initWithAccountID:@"9858E2E02DD3013518E922000B2E019E"];
+        RFMAdSDK.initWithAccountId("9858E2E02DD3013518E922000B2E019E")
+    }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true

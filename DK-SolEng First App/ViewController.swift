@@ -20,6 +20,13 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
         
         //Handle the text field's user input through delegate callbacks.
         nameTextField.delegate = self
+        
+        //Rubicon put the banner in the app
+        //Need to refactor for swift:
+        //RFMAdView [createAdwithDelegate:self];
+        
+        //swift refactor
+        RFMAdView.createAd(with: self as! RFMAdDelegate)
     }
 
     //MARK: UITextFieldDelegate
@@ -73,4 +80,6 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
         simpsonCharNameLabel.text = "Simpsons Character"
     }
 }
+
+
 

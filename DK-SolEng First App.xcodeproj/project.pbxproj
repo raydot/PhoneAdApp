@@ -52,6 +52,8 @@
 		B945399B1EE60CEC00CBF04D /* DK_SolEng_First_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DK_SolEng_First_AppUITests.swift; sourceTree = "<group>"; };
 		B945399D1EE60CEC00CBF04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B94539A91EE76B4700CBF04D /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		B9A160841EE8796600532FF4 /* notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = notes.md; sourceTree = "<group>"; };
+		B9A160871EE879C900532FF4 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		CF8C3D1FE33750A198A52E9E /* libPods-DK-SolEng First App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DK-SolEng First App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -130,6 +132,8 @@
 				B94539821EE60CEC00CBF04D /* Assets.xcassets */,
 				B94539841EE60CEC00CBF04D /* LaunchScreen.storyboard */,
 				B94539871EE60CEC00CBF04D /* Info.plist */,
+				B9A160841EE8796600532FF4 /* notes.md */,
+				B9A160871EE879C900532FF4 /* Bridging-Header.h */,
 			);
 			path = "DK-SolEng First App";
 			sourceTree = "<group>";
@@ -498,6 +502,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rubiconproject.DK-SolEng-First-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DK-SolEng First App/Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -511,6 +516,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rubiconproject.DK-SolEng-First-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DK-SolEng First App/Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
