@@ -14,6 +14,7 @@
 		B94539861EE60CEC00CBF04D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94539841EE60CEC00CBF04D /* LaunchScreen.storyboard */; };
 		B94539911EE60CEC00CBF04D /* DK_SolEng_First_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94539901EE60CEC00CBF04D /* DK_SolEng_First_AppTests.swift */; };
 		B945399C1EE60CEC00CBF04D /* DK_SolEng_First_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B945399B1EE60CEC00CBF04D /* DK_SolEng_First_AppUITests.swift */; };
+		B94539AA1EE76B4700CBF04D /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94539A91EE76B4700CBF04D /* RatingControl.swift */; };
 		E4BF7B5BDE037E62D7192004 /* libPods-DK-SolEng First App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8C3D1FE33750A198A52E9E /* libPods-DK-SolEng First App.a */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		B94539971EE60CEC00CBF04D /* DK-SolEng First AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DK-SolEng First AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B945399B1EE60CEC00CBF04D /* DK_SolEng_First_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DK_SolEng_First_AppUITests.swift; sourceTree = "<group>"; };
 		B945399D1EE60CEC00CBF04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B94539A91EE76B4700CBF04D /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		CF8C3D1FE33750A198A52E9E /* libPods-DK-SolEng First App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DK-SolEng First App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -123,6 +125,7 @@
 			children = (
 				B945397B1EE60CEC00CBF04D /* AppDelegate.swift */,
 				B945397D1EE60CEC00CBF04D /* ViewController.swift */,
+				B94539A91EE76B4700CBF04D /* RatingControl.swift */,
 				B945397F1EE60CEC00CBF04D /* Main.storyboard */,
 				B94539821EE60CEC00CBF04D /* Assets.xcassets */,
 				B94539841EE60CEC00CBF04D /* LaunchScreen.storyboard */,
@@ -335,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B945397E1EE60CEC00CBF04D /* ViewController.swift in Sources */,
+				B94539AA1EE76B4700CBF04D /* RatingControl.swift in Sources */,
 				B945397C1EE60CEC00CBF04D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -584,6 +588,7 @@
 				B94539A21EE60CEC00CBF04D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B94539A31EE60CEC00CBF04D /* Build configuration list for PBXNativeTarget "DK-SolEng First AppTests" */ = {
 			isa = XCConfigurationList;
@@ -592,6 +597,7 @@
 				B94539A51EE60CEC00CBF04D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B94539A61EE60CEC00CBF04D /* Build configuration list for PBXNativeTarget "DK-SolEng First AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -600,6 +606,7 @@
 				B94539A81EE60CEC00CBF04D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
