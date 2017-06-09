@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Constants
+//import Constants
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidFinishLaunching(_ application: UIApplication) {
         //MARK: RubiconInit
-        RFMAdSDK.initWithAccountId(RBAccountID)
+        RFMAdSDK.initWithAccountId(Constants.RBAccountID)
         
         //REFACTOR FOR SWIFT
         //RFMAdRequest *rfmAdRequest = [[RFMAdRequest alloc] initRequestWithServer:rfmServer
@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //    andPubId:rfmPubId];
         
         //THIS IS CLOSE BUT NOT RIGHT
-        let someVar = RFMAdRequest.init(requestWithServer: RBTestServer, andAppId: RBAppID, andPubId: RBPubId) //all constants
+        let someVar = RFMAdRequest.init(requestWithServer: Constants.RBTestServer, andAppId: Constants.RBAccountID, andPubId: Constants.RBPubId)
 
     }
     
