@@ -8,12 +8,17 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, RFMAdDelegate {
     
     //MARK: Properties
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var simpsonCharNameLabel: UILabel!
     @IBOutlet weak var photoImageView: UIImageView!
+    
+    //RUBICON:
+    //Creates the ad view
+    //Replaces line @interface SimpleBannerViewController()<RFMADelegate>
+    weak var SimpleBannerViewController: RFMAdDelegate?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,12 +26,18 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
         //Handle the text field's user input through delegate callbacks.
         nameTextField.delegate = self
         
-        //Rubicon put the banner in the app
+        //RUBICON
+        //put the banner in the app
         //Need to refactor for swift:
         //RFMAdView [createAdwithDelegate:self];
         
         //swift refactor
-        RFMAdView.createAd(with: self as! RFMAdDelegate)
+        //SimpleBannerViewController.delegate = self
+        
+        //RFMAdView.createAd(with: self as! RFMAdDelegate)
+        //weak var delegate:
+        //THIS IS NOT RIGHT
+        _ = RFMAdRequest.init(requestWithServer: "", andAppId: "", andPubId: "") //all constants
     }
 
     //MARK: UITextFieldDelegate
@@ -39,6 +50,17 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     func textFieldDidEndEditing(_ textField: UITextField) {
         simpsonCharNameLabel.text = textField.text
     }
+    
+    //MARK: RFMAdDelegate
+//    func didReceiveAd(_ adView: RFMAdView!) {
+//        guard let RFMAdDelegateImage = createAd[RFMAdView] as?
+//            UIImage else {
+//                fatalError("Expected an ad image, but was provided the following: \(createAd)")
+//        }
+//        
+//        //SimpleBannerViewController should be set to the imported image
+//        SimpleBannerViewController.image = RFMAdDelegateImage
+//    }
     
     //MARK: UIImagePickerControllerDelegate
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {

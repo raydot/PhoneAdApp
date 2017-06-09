@@ -15,8 +15,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidFinishLaunching(_ application: UIApplication) {
         //MARK: RubiconInit
-        //[RFMAdSDK initWithAccountID:@"9858E2E02DD3013518E922000B2E019E"];
-        RFMAdSDK.initWithAccountId("9858E2E02DD3013518E922000B2E019E")
+        RFMAdSDK.initWithAccountId() //A constant
+        
+        //REFACTOR FOR SWIFT
+        //RFMAdRequest *rfmAdRequest = [[RFMAdRequest alloc] initRequestWithServer:rfmServer
+        //    andAppId:rfmAppId
+        //    andPubId:rfmPubId];
+        
+        //THIS IS CLOSE BUT NOT RIGHT
+        let someVar = RFMAdRequest.init(requestWithServer: "", andAppId: "", andPubId: "") //all constants
+
     }
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {

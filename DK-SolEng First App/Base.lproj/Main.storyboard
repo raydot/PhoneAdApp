@@ -24,7 +24,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="5Ub-Cn-eec">
-                                <rect key="frame" x="16" y="40" width="343" height="456.5"/>
+                                <rect key="frame" x="16" y="40" width="343" height="541"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Simpsons Character" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1XG-SQ-8Aq">
                                         <rect key="frame" x="0.0" y="0.0" width="155.5" height="20.5"/>
@@ -33,20 +33,20 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Simpsons Character" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Slh-R5-WhQ">
-                                        <rect key="frame" x="0.0" y="28.5" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="28.5" width="343" height="56.5"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GTb-uF-TwX">
-                                        <rect key="frame" x="0.0" y="66.5" width="151" height="30"/>
+                                        <rect key="frame" x="0.0" y="93" width="151" height="30"/>
                                         <state key="normal" title="Set Default Label Text"/>
                                         <connections>
                                             <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f51-wt-4MG"/>
                                         </connections>
                                     </button>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="0L1-rg-uKc">
-                                        <rect key="frame" x="0.0" y="104.5" width="320" height="320"/>
+                                        <rect key="frame" x="0.0" y="131" width="320" height="320"/>
                                         <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="0L1-rg-uKc" secondAttribute="height" multiplier="1:1" id="3wx-jJ-ALE"/>
@@ -57,7 +57,7 @@
                                         </connections>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="FNc-k3-fjh" customClass="RatingControl" customModule="DK_SolEng_First_App" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="432.5" width="179" height="24"/>
+                                        <rect key="frame" x="0.0" y="459" width="179" height="24"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="size" keyPath="starSize">
                                                 <size key="value" width="9" height="24"/>
@@ -67,26 +67,31 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </stackView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hqk-Fl-RGH" customClass="SimpleBannerViewController">
+                                        <rect key="frame" x="0.0" y="491" width="94" height="50"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
+                                        </accessibility>
+                                    </imageView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="Slh-R5-WhQ" secondAttribute="trailing" id="A3S-p9-flM"/>
+                                    <constraint firstAttribute="trailing" secondItem="FNc-k3-fjh" secondAttribute="trailing" constant="164" id="j8s-fd-tiB"/>
                                 </constraints>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hqk-Fl-RGH">
-                                <rect key="frame" x="0.0" y="539" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="5Ub-Cn-eec" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="DKD-5Q-eIy"/>
                             <constraint firstItem="5Ub-Cn-eec" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="PxF-My-wIE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5Ub-Cn-eec" secondAttribute="bottom" constant="86" id="ReP-k4-QV8"/>
                             <constraint firstItem="5Ub-Cn-eec" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="W0H-oX-lY4"/>
                             <constraint firstAttribute="trailingMargin" secondItem="5Ub-Cn-eec" secondAttribute="trailing" id="oWw-mc-bfn"/>
                             <constraint firstAttribute="trailingMargin" secondItem="5Ub-Cn-eec" secondAttribute="trailing" id="yCF-xK-0Or"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="SimpleBannerViewController" destination="hqk-Fl-RGH" id="woq-FK-GfY"/>
                         <outlet property="nameTextField" destination="Slh-R5-WhQ" id="ih7-lc-uBX"/>
                         <outlet property="photoImageView" destination="0L1-rg-uKc" id="8ep-so-Axr"/>
                         <outlet property="simpsonCharNameLabel" destination="1XG-SQ-8Aq" id="0Co-zk-A3F"/>

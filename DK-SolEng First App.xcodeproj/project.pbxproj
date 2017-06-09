@@ -15,6 +15,7 @@
 		B94539911EE60CEC00CBF04D /* DK_SolEng_First_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94539901EE60CEC00CBF04D /* DK_SolEng_First_AppTests.swift */; };
 		B945399C1EE60CEC00CBF04D /* DK_SolEng_First_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B945399B1EE60CEC00CBF04D /* DK_SolEng_First_AppUITests.swift */; };
 		B94539AA1EE76B4700CBF04D /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94539A91EE76B4700CBF04D /* RatingControl.swift */; };
+		B981D3681EEB389100332DBE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B981D3671EEB389100332DBE /* Constants.swift */; };
 		E4BF7B5BDE037E62D7192004 /* libPods-DK-SolEng First App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8C3D1FE33750A198A52E9E /* libPods-DK-SolEng First App.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		B945399B1EE60CEC00CBF04D /* DK_SolEng_First_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DK_SolEng_First_AppUITests.swift; sourceTree = "<group>"; };
 		B945399D1EE60CEC00CBF04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B94539A91EE76B4700CBF04D /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		B981D3671EEB389100332DBE /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B9A160841EE8796600532FF4 /* notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = notes.md; sourceTree = "<group>"; };
 		B9A160871EE879C900532FF4 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		CF8C3D1FE33750A198A52E9E /* libPods-DK-SolEng First App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DK-SolEng First App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +127,7 @@
 		B945397A1EE60CEC00CBF04D /* DK-SolEng First App */ = {
 			isa = PBXGroup;
 			children = (
+				B981D3671EEB389100332DBE /* Constants.swift */,
 				B945397B1EE60CEC00CBF04D /* AppDelegate.swift */,
 				B945397D1EE60CEC00CBF04D /* ViewController.swift */,
 				B94539A91EE76B4700CBF04D /* RatingControl.swift */,
@@ -344,6 +347,7 @@
 				B945397E1EE60CEC00CBF04D /* ViewController.swift in Sources */,
 				B94539AA1EE76B4700CBF04D /* RatingControl.swift in Sources */,
 				B945397C1EE60CEC00CBF04D /* AppDelegate.swift in Sources */,
+				B981D3681EEB389100332DBE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
